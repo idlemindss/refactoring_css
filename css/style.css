@@ -1,8 +1,8 @@
-#header h1 {
+header h1 {
   text-align: center;
 }
 
-#header p {
+header p {
   text-align: center;
 }
 
@@ -17,59 +17,31 @@ main {
   width: 40%;
   float: left;
   padding-top: 20px;
+  display:inline-block;
 }
 
 .right {
   width: 40%;
   float: left;
+
 }
 
-.headphones_section {
+.rightcontainer {
   width: 100%;
-  clear: both;
+  float:left;
 }
 
-#headphones_picture {
+.picture {
   width: 40%;
   float: left;
-  margin: 20px 0px 0px 0px;
+  margin-top: 20px;
 }
 
-.headphones_section img {
+.rightcontainer img {
   width: 100%;
 }
 
-.laptop_section {
-  width: 100%;
-  clear: both;
-}
-
-#laptop_picture {
-  width: 40%;
-  float: left;
-  margin: 20px 0px 0px 0px;
-}
-
-.laptop_section img {
-  width: 100%;
-}
-
-.window_section {
-  width: 100%;
-  clear: both;
-}
-
-.window_section img {
-  width: 100%;
-}
-
-#window_picture {
-  width: 40%;
-  float: left;
-  margin: 20px 0px 0px 0px;
-}
-
-#text {
+.text {
   width: 50%;
   float: left;
   margin: 0px 0px 0px 10px;
